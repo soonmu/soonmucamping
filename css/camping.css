@@ -1,0 +1,30 @@
+@charset "utf-8";
+*{margin: 0 auto;; padding: 0;}
+li{list-style: none;}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+#search{
+    padding: 10px 0;
+    width: 30%;
+    padding-left: 350px;
+}
+#slider{
+    padding-bottom: 30px;
+}
+#event{
+    padding-bottom: 40px;
+}
+#best{
+    padding-bottom: 40px;
+}
+#all_item{
+    padding-bottom: 40px;
+}

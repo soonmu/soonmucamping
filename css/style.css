@@ -1,0 +1,163 @@
+@charset "utf-8";
+*{
+    margin: 0; padding: 0;}
+li{list-style: none;}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+img{
+    display: block;
+    width: 100%;
+}
+#wrap{
+    width: 1260px;
+}
+
+header{
+    background: #FFBF37;
+    padding: 30px;
+}
+header img{
+    display: block;
+}
+.logo{
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.head_bar{
+    margin-left: 1250px;
+    width: 10%;
+}
+.mypage li{
+    text-align: right;
+    font-size: .7rem;
+}
+
+.gnb{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.gnb li{
+    line-height: 48px;
+    justify-content: space-between;
+    width: 30%;
+}
+.gnb a{
+    text-align: center;
+    border-bottom: 3px #FFBF37 solid;
+}
+
+.gnb a:hover{
+    background: #CBCBCB;    
+}
+
+#main_slide ul{
+    width:300%;
+    height: 300px;
+    display: flex;
+    margin: 45px auto;
+    padding-bottom: 80px;
+
+}
+
+
+/* event */
+#event{
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 80px;
+}
+#event ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    justify-content: space-around;
+}
+.ev_title{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+
+/* best */
+.BEST{
+    margin: 0 auto;
+}
+.be_title{
+    background: #FFBF37;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.be_img{
+    width: 70%;
+    margin: 30px auto;
+}
+
+
+
+
+.all{
+    margin: 0 auto;
+}
+.all img{
+    width: 80%;
+    margin: 20px auto;
+}
+.all_title{
+    background: #FFBF37;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    background: #454545;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 30px 0;
+    color: #CBCBCB;
+
+}
+.EMAIL{
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+#bw_logo img{
+    width: 80%;
+}
+
+#bw_logo{
+    width: 5%;
+}
+.sns_img{
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:720px){
+    .logo{
+        width: 100px;}
+    #main_slide{width: 30%;}
+    .head_bar{display: none;}
+    .mypage{display: none;}
+    nav{display: none;}
+}
